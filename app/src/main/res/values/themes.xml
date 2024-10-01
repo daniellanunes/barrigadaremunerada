@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BarrigadaRmunerada" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primarias -->
+        <item name="colorPrimary">@color/primaira</item>
+        <item name="colorPrimaryVariant">@color/primairaVariacao</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secundarias -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant"></item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Fundo -->
+        <item name="android:windowBackground">@color/fundo</item>
+        <!-- Barra de status -->
+        <item name="android:statusBarColor" tools:targerApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.BarrigadaRmunerada" parent="Base.Theme.BarrigadaRmunerada" />
+</resources>
