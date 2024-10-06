@@ -5,7 +5,7 @@
     <!-- Cores Netflix -->
     <color name="primaira">#503C31</color>
     <color name="primairaVariacao">#816250</color>
-    <color name="secundaria">#A87C64</color>
-    <color name="fundo">#FFFFFFFF</color>
+    <color name="secundaria">#8C6751</color>
+    <color name="fundo">#9D6548</color>
     <color name="menu_navegacao">#FFFFFF</color>
 </resources>
