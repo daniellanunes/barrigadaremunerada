@@ -21,6 +21,9 @@ class CalculoActivity : AppCompatActivity() {
     lateinit var textInputTempo     : TextInputLayout
     lateinit var editTempo     : TextInputEditText
 
+    lateinit var textInputData : TextInputLayout
+    lateinit var editData : TextInputEditText
+
     //lateinit var textResultado : TextView
     lateinit var btnCalcular   : Button
 
@@ -44,6 +47,8 @@ class CalculoActivity : AppCompatActivity() {
             var numero = minSalario * tempoH
             var resultado = String.format("%.2f", numero)
 
+            val data = editData.text.toString()
+            intent.putExtra("data", data)
             intent.putExtra("salario",salario)
             intent.putExtra("horas",horasTrab)
             intent.putExtra("min",tempoH) //int
@@ -100,6 +105,8 @@ class CalculoActivity : AppCompatActivity() {
         editSalario = findViewById(R.id.edit_salario)
         textInputHrsTrab = findViewById(R.id.text_hrs_trab)
         editHrsTrab = findViewById(R.id.editHorasTrab)
+        textInputData = findViewById(R.id.text_input_data)
+        editData = findViewById(R.id.edit_data)
         //textResultado = findViewById(R.id.text_result)
         btnCalcular = findViewById(R.id.btn_calcular)
 
